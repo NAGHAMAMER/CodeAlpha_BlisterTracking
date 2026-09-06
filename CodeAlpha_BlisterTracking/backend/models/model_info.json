@@ -1,0 +1,12 @@
+{
+  "filename": "best.pt",
+  "source_filename": "ff101133-82c0-4393-a9e8-53e129c825d7.pt",
+  "source": "User-provided corrected YOLO checkpoint",
+  "sha256": "d9d00c08345f3e666cfbb18fb9335323c976fca72e53aea01124f3e61e16ac04",
+  "bytes": 6253482,
+  "application_active_class": {"1": "blister"},
+  "checkpoint_ultralytics_version": "8.4.104",
+  "training_arguments_recorded_in_checkpoint": {"epochs": 80, "imgsz": 640, "batch": 8},
+  "uniform_frame_smoke_check": "No detections at confidence 0.10 on black, gray, or white 640x480 frames.",
+  "known_limitations": "The detector loses the blister during fast motion, blur, occlusion, or poor framing. A new ID can be assigned after a sufficiently long loss or re-entry."
+}
